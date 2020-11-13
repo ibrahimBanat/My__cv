@@ -1,0 +1,96 @@
+.projects { 
+    padding: 25px 25px 25px;
+    box-sizing: border-box;
+}
+
+
+
+
+.projects__title { 
+    box-sizing: border-box;
+    
+    display: table;
+    color: #2e406f;
+    padding: 0 20.02px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;    font-size: 21.38px;
+
+}
+
+.div__line { 
+    background-color: #ffd9f9;
+    height: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.projects__desc_container { 
+    display: flex;
+    margin-left: -10.02px;
+    margin-right: -10.02px;
+
+    padding-top: 25px
+    ;
+    padding-bottom: 25.05px;
+    padding-right: 10.02px;
+    padding-left: 10.02px;
+    /* height: 200px; */
+}
+
+.project1__photo { 
+    padding: 0 10.02px;
+    width: 50%;
+    height: 100%;
+}
+
+.projects__desc_p { 
+    width:80%;
+    margin-right: 5px;
+}
+
+.project1__photo>img { 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project1__desc>h3 { 
+    margin-top: 0;
+    
+    color: #333;
+    font-size: 21px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    font-weight: 700;
+}
+.project2__desc>h3 { 
+    margin-top: 0;
+    padding-left: 10px;
+    color: #333;
+    font-size: 21px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    font-weight: 700;
+}
+
+.project2__desc>p { 
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.project2__desc { 
+    width: 60%;
+}
+
+.project1__desc { 
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.project__type {
+    margin: 27px 0px 20.4px;
+    padding-left: 10.02px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    color: rgb(51, 51, 51);
+    margin-top: 26.8px;
+    font-size: 19.04px;
+    font-weight: 600;
+    
+}

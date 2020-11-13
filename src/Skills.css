@@ -1,0 +1,48 @@
+.skills__container { 
+    padding: 25px 25px 25px;
+    box-sizing: border-box;
+    
+}
+
+.skills__title{ 
+    color: #2e406f;
+    padding: 0 20.02px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    font-size: 21.38px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom:  5px;
+    
+}
+
+.skills__infor { 
+    padding: 0 20.02px;
+    
+}
+.skills__infor>h3 { 
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    color: rgb(51, 51, 51);
+    margin-top: 26.8px;
+    font-size: 20.04px;
+    font-weight: 600;
+}
+
+.skills__infor>p { 
+    margin: 10.02px 0;
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: block;
+    font-size: 16.7px;
+    line-height: 25.05px;
+    overflow-wrap: break-word;
+    text-size-adjust: 100%;
+    
+}
+
+.div__line { 
+    background-color: #fabbf0;
+    height: 1px;
+    margin-top: 0;
+    
+}
+

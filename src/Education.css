@@ -1,0 +1,74 @@
+.education { 
+    padding: 25px 25px 25px;
+    box-sizing: border-box;
+}
+
+.heading__box { 
+    box-sizing: border-box;
+    
+    display: table;
+    color: #2e406f;
+    padding: 0 20.02px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;    font-size: 21.38px;
+}
+
+.education__content { 
+    display: flex;
+}
+
+.education__img { 
+    
+    padding-top: 10px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    
+    
+    
+}
+
+.education__img>p>img { 
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3.34px 10.02px 0px;
+    
+}
+
+.div__line { 
+    background-color: #ffd9f9;
+    height: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.education__content__details { 
+    padding-left:  20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.education__content__details>p>h3 { 
+    color: #2e406f;
+    font-family: 'Source Sans Pro', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    font-size: 16.7px;
+    font-weight: 900;
+}
+
+.education__content__details>p>span { 
+    font-family: 'Source Sans Pro', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    font-size: 18.7px;
+    line-height: 1.5;
+    color: #888;
+}
+
+.education__content__details>p>h4 { 
+    color: #333;
+    font-size: 21px;
+    font-family: 'Archivo', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+    font-weight: 700;
+}

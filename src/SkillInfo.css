@@ -1,0 +1,39 @@
+.skillInfo { 
+    border-radius: 16.7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3.34px 10.02px 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 6.68px;
+    line-height: 40px;
+    padding: 16.7px 8.35px;
+    margin-right: 16px;
+}
+
+.skill__photo { 
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: inline-block;
+    
+    height: 40px;
+    line-height: 16.7px;
+    margin-bottom: 1.67px;
+    margin-top: -1.67px;
+    margin-right: 1.67px;
+    margin-left: 1.67px;
+    vertical-align: middle;
+    width: 40px;
+    border-radius: 8px;
+}
+
+.skillInfo__text { 
+    display: inline;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 16.7px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+
+}

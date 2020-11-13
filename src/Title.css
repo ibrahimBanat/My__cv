@@ -1,0 +1,114 @@
+.title { 
+margin: 0px;
+
+}
+
+.title__key { 
+    color: #647b71;
+    margin-top: 5px;
+}
+
+.title__desc { 
+    color: #ffffff;
+    padding-top: 17px;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans HK', 'Noto Sans JP', 'Noto Sans', 'PingFang TC', 'Microsoft JhengHei', 'PMingLiU', sans-serif;
+} 
+.title__desc>p { 
+    margin-bottom: 20px;
+}
+
+
+
+.title__container { 
+    font-family: 'Crimson Text', Noto Serif TC, Noto Serif SC, Noto Serif KR, Noto Serif JP, Noto Serif, Songti TC, serif;
+    line-height: 1.5;
+    padding: 25px 25px 25px;
+    box-sizing: border-box;
+    background-color: #2e406f;
+    display: inline-flex;
+
+    
+   
+    
+    
+}
+
+.title__name { 
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.title__desc { 
+    position: relative;
+}
+
+
+
+.title__section1 { 
+    padding-left: 20.02px ;
+    padding-right: 10.02px;
+    width: 60%;
+}
+
+.title__key { 
+    padding-left: 6px;
+    color: #fabbf0;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    
+}
+
+.title__location { 
+    padding-left: 6px;
+    color: #ffffff;
+    margin-top: 9px;
+
+
+}
+
+.title__icons { 
+    display: flex;
+}
+.title__githubIcon>p {
+    margin-top: 0;
+    padding-left: 10px;
+
+}
+
+.title__linkedinIcon { 
+    margin-left: 10px;
+    display: flex;
+}
+
+.title__githubIcon{
+    display: flex;
+    margin-left: 10px;
+}
+
+.title__linkedinIcon>p {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.title__phoneIcon{
+    display: flex;
+}
+
+.title__phoneIcon>p{ 
+    margin-top: 0;
+    padding-left: 10px;
+
+}
+
+.title__location { 
+    display: flex;
+}
+
+.title__location>p { 
+    margin-top: 0;
+    padding-left: 10px;
+}
