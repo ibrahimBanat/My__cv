@@ -43,6 +43,17 @@ var sectionStyles = {
     sectionStyle12: {
         background: "url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png)"
     },
+    sectionStyle13: {
+        background: "url(https://media-exp1.licdn.com/dms/image/C560BAQG2-bElRVrSqw/company-logo_200_200/0/1547450366259?e=2159024400&v=beta&t=OpI315QOVOkFjDgZPAGF_Kw7N490Y6bkILBCrjliQUQ)"
+    },
+    sectionStyle14: {
+        background: "url(https://user-images.githubusercontent.com/13250741/64669187-33b55380-d47e-11e9-8bbf-c02a9d42f9a7.png)"
+    },
+    sectionStyle15: {
+        background: "url(https://img.favpng.com/13/13/20/scikit-learn-python-scikit-image-logo-brand-png-favpng-DiDpZ1ewwNabVHftX6ieU1Wx4.jpg)"
+    },
+    
+    
     
     
     
@@ -60,6 +71,21 @@ const Skills = () => {
 
                 <div className="skills__infor">
 
+                    <h3>AI & DS Stack</h3>
+                        
+                    <p>
+                        <SkillInfo icon={sectionStyles.sectionStyle8} text={'Python'}/>
+                        <SkillInfo icon={sectionStyles.sectionStyle14} text={'Tensorflow'}/>
+                        <SkillInfo icon={sectionStyles.sectionStyle13} text={'Keras'}/>
+                        <SkillInfo icon={sectionStyles.sectionStyle15} text={'Sikit learn'}/>
+                        <SkillInfo icon={sectionStyles.sectionStyle11} text={'Numpy'}/>
+                        <SkillInfo icon={sectionStyles.sectionStyle12} text={'Pandas'}/>
+                        
+                    </p>
+                    
+                </div>
+                {/* <div className="skills__infor">
+
                     <h3>Web Development Stack</h3>
                     <p>
                         <SkillInfo icon={sectionStyles.sectionStyle2} text={'Express'} />
@@ -74,21 +100,9 @@ const Skills = () => {
                         
                     </p>
                     
-                </div>
+                </div> */}
                 
-                <div className="skills__infor">
-
-                    <h3>Other</h3>
-                        
-                    <p>
-                        <SkillInfo icon={sectionStyles.sectionStyle8} text={'Python'}/>
-                        <SkillInfo icon={sectionStyles.sectionStyle10} text={'Pytorch'}/>
-                        <SkillInfo icon={sectionStyles.sectionStyle11} text={'Numpy'}/>
-                        <SkillInfo icon={sectionStyles.sectionStyle12} text={'Pandas'}/>
-                        
-                    </p>
-                    
-                </div>
+                
             </div>
         </div>
     )

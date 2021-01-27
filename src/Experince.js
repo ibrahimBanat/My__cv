@@ -13,19 +13,19 @@ const Experince = () => {
                 <div className="expreince__img">
                     <p>
 
-                        <img src="https://spa-assets.cakeresume.com/assets/e47b296812ff5d01950b001a5291b477.png" alt=""/>
+                        <img src="https://spa-assets.cakeresume.com/assets/f17124912b75a710bc32f6474605ed89.png" alt=""/>
                     </p>
                     
                 </div>
                 
                 <div className="expreince__content__details">
-                    <h3>Operation & Control Intern</h3>
-                    <h4>Samra Electric Power Company</h4>
+                    <h3>Game Developer</h3>
+                    <h4>Maysalward Company</h4>
                     <p>
-                        <span>Jan 2019 - Jun 2019</span>
+                        <span>Sep 2020 - Jan 2021</span>
                     </p>
                     <p>
-                        <span>Zarqa, Jordan</span>
+                        <span>Amman, Jordan</span>
                     </p>
                 </div>
 
@@ -45,16 +45,19 @@ const Experince = () => {
                 <div className="expreince__img">
                     <p>
 
-                        <img src="https://spa-assets.cakeresume.com/assets/e47b296812ff5d01950b001a5291b477.png" alt=""/>
+                        <img src="https://spa-assets.cakeresume.com/assets/f17124912b75a710bc32f6474605ed89.png" alt=""/>
                     </p>
                     
                 </div>
                 
                 <div className="expreince__content__details2">
-                    <h3>Freelance Developer</h3>
+                    <h3>Game Developer Intern</h3>
 
                     <p>
-                        <span>Jan 2020 - Now</span>
+                        <span>Jul 2020 - Sep 2020</span>
+                    </p>
+                    <p>
+                    Amman, Jordan
                     </p>
                 </div>
 

@@ -98,6 +98,8 @@ margin: 0px;
     display: flex;
 }
 
+
+
 .title__phoneIcon>p{ 
     margin-top: 0;
     padding-left: 10px;
@@ -111,4 +113,22 @@ margin: 0px;
 .title__location>p { 
     margin-top: 0;
     padding-left: 10px;
+}
+
+.email__acc { 
+    display: flex;
+    align-items: center;
+}
+
+.email__acc>div { 
+    margin-left: 10px;
+}
+
+.link__text {
+    color: white;
+    text-decoration: none;
+}
+
+.title__desc>p {
+    margin-bottom: 30px;
 }

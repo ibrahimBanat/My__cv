@@ -13,14 +13,14 @@ const Education = () => {
             <div className="education__content">
                 <div className="education__img">
                     <p>
-                        <img src="https://spa-assets.cakeresume.com/assets/8b5f66a2da2aa189eaafbbaf4137ab11.png" alt=""/>
+                        <img src="https://spa-assets.cakeresume.com/assets/a20f9b6f3eddbda6d140326fb089ecec.png" alt=""/>
                     </p>
                 </div>
                 <div className="education__content__details">
                     <p>
-                        <h4>Electrical Engineering</h4>
-                        <h3>Balqa'a Applied University</h3>
-                        <span> Sep 2015- Jan 2020</span>
+                        <h4>Computer Science</h4>
+                        <h3>Hashemite University </h3>
+                        <span> Sep 2016- Sep 2020</span>
                     </p>
                 </div>
             </div>

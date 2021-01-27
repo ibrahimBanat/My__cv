@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
 import './Projects.css'
 
 
@@ -12,7 +13,7 @@ const Projects = () => {
             </div>
             <div className="div__line"></div>
 
-            <div className="project__type">
+            {/* <div className="project__type">
                 <h3>Web Development</h3>
             </div>
             <div className="projects__desc_container">
@@ -37,9 +38,9 @@ const Projects = () => {
                     <p>Website with advanced DOM events handlers</p>
                 </div>
                 
-            </div>
+            </div> */}
                   
-            <div className="project__type">
+            {/* <div className="project__type">
                 <h3>Deep learning</h3>
             </div>
 
@@ -65,7 +66,46 @@ const Projects = () => {
                     <p>A Hidden Markov model for part of speech tagging with universal tag-set</p>
                 </div>
                 
+            </div> */}
+            <div className="projects__cardContainer1">
+                <div className="project__card4">
+                    <ProjectCard 
+                    text= "A hidden Markov model for part of speech tagging with a universal tagset."
+                    head= "Markov model"
+
+                    link="https://github.com/ibrahimBanat/hmm-part_of_speech_tagging"
+                    img="https://github.com/ibrahimBanat/imgurl/blob/main/hmm.png?raw=true"/>
+                </div>
+                <div className="project__card4">
+                    <ProjectCard 
+                    className="project__card4"
+                    text= "a deep neural network that functions as part of an end-to-end machine translation pipeline."
+                    head="Machine translation"
+                    link="https://github.com/ibrahimBanat/Machine-translation"
+                    img="https://github.com/ibrahimBanat/imgurl/blob/main/machine%20translition.png?raw=true"
+                    />
+                </div>
+                <div className="project__card4">
+                    <ProjectCard 
+                    className="project__card4"
+                    text= "A deep neural network that functions as an end-to-end speech recognition pipeline."
+                    head="Speech recognizer"
+                    link="https://github.com/ibrahimBanat/DNN-Speech-Recognizer"
+                    img="https://github.com/ibrahimBanat/imgurl/blob/main/DNN%20speech%20recognizer.png?raw=true"
+                    />
+                </div>
+                <div className="project__card3">
+                    <ProjectCard className="project__card4"
+                    text= "a deployed recurrent neural network performing sentiment analysis on movie reviews."
+                    head="Sentiment prediction"
+                    link="https://github.com/ibrahimBanat/Sagemaker-project-"
+                    img="https://github.com/ibrahimBanat/imgurl/blob/main/Sentiment%20prediction.png?raw=true"
+                    />
+                </div>
+            
+            
             </div>
+            
         </div>
     )
 }

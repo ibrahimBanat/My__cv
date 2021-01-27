@@ -14,6 +14,7 @@ const Main = () => {
             <Experince/>
             <Education/>
             <Projects/>
+            
         </div>
     )
 }
